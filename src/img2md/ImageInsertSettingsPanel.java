@@ -81,7 +81,7 @@ public class ImageInsertSettingsPanel extends JPanel {
 
             //---- whiteCheckbox ----
             whiteCheckbox.setText("Convert white to transparent");
-            whiteCheckbox.setSelected(true);
+            whiteCheckbox.setSelected(false);
             panel1.add(whiteCheckbox, new GridBagConstraints(0, 2, 2, 1, 0.0, 0.0,
                 GridBagConstraints.CENTER, GridBagConstraints.HORIZONTAL,
                 new Insets(0, 0, 0, 0), 0, 0));

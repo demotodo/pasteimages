@@ -48,7 +48,7 @@ new FormModel {
 				add( new FormComponent( "javax.swing.JCheckBox" ) {
 					name: "whiteCheckbox"
 					"text": "Convert white to transparent"
-					"selected": true
+					"selected": false
 					auxiliary() {
 						"JavaCodeGenerator.variableGetter": true
 					}
